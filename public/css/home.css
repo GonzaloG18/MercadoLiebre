@@ -1,0 +1,174 @@
+html,
+body {
+  margin: 0;
+}
+*{
+  margin: 0px;
+  padding: 0px;    
+  box-sizing: border-box;
+}
+.logo {
+  margin: 0px;
+  padding: 0px;
+}
+.search-bar {
+  margin: 0px;
+  padding-right: 0px;
+}
+
+.product-desc-box > .product-delivery-icon{
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+.product-desc-box {
+  position: relative;
+}
+.text-center {
+  text-align: center;
+}
+.w-50 {
+  width: 50%;
+}
+.padding {
+  padding: 24px;
+}
+main {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+#ml-main-nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+#ml-main-nav a {
+  text-decoration: none;
+  color: black;
+}
+.burger-menu {
+  text-align: center;
+  font-size: 24px;
+  width: 28px;
+  padding: 8px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.banner {
+  width: 100%;
+}
+
+body {
+  font-family: "";
+  font-size: 12px;
+}
+.text-title {
+  font-size: 24px;
+}
+.text-price {
+  font-size: 18px;
+}
+.text-discount {
+  font-size: 16px;
+}
+.text-desc {
+  font-size: 16px;
+}
+
+.ml-yellow-text {
+  color: #eac926;
+}
+.ml-blue-text {
+  color: #03264c;
+}
+.ml-lb-text {
+  color: #1259c3;
+}
+.ml-dark-text {
+  color: #666;
+}
+.ml-light-text {
+  color: #ebebeb;
+}
+.ml-green-text {
+  color: #39b54a;
+}
+
+.ml-yellow-bg {
+  background-color: #eac926;
+}
+.ml-blue-bg {
+  background-color: #03264c;
+}
+.ml-lb-bg {
+  background-color: #1259c3;
+}
+.ml-dark-bg {
+  background-color: #666;
+}
+.ml-light-bg {
+  background-color: #ebebeb;
+}
+.ml-green-bg {
+  background-color: #920606;
+}
+article{
+  margin-bottom: 10px;
+}
+.product-description{
+  border: 1px solid #ebebeb;
+  padding: 15px;
+  display: none;
+}
+#ml-main-nav{
+  display: none;
+}
+
+.ultima-visita {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.ofertas {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+@media (min-width:361px) {
+  .product-description {
+    display: block;
+  }
+  .articulo_shadow{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  #ml-main-nav{
+    display: block;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
+@media (min-width:769px) {
+  .product-description {
+    display: block;
+  }
+  .articulo_shadow{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  #ml-main-nav{
+    display: block;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
+
